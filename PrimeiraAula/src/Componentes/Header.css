@@ -1,12 +1,10 @@
 .ddddddddd{
-    background-color: blueviolet;
+    background-color: rgb(138, 107, 211);
     height: 60px;
     display: flex;
     justify-content:space-around ;
     align-items:center ;
    /* gap: 25px;*/
    
-    
-
-
 }
+
