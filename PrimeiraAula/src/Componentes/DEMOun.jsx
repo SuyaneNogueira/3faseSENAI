@@ -3,6 +3,7 @@ import './DEMOum.css'
 export default function DEMOun() {
     const [estado, setEStado] = useState(0)
     const [cornoMetro, setCornometro] = useState(0)
+    
     function incrementarEstado() {
         setEStado(estado +1)
        
@@ -11,10 +12,6 @@ export default function DEMOun() {
         setEStado(estado-1) 
     }
   
-    function alertaUsuario() {
-        alert("burro")
-        
-    }
     function incrementacornometro() {
         setCornometro(cornoMetro +1)
        
@@ -28,7 +25,7 @@ export default function DEMOun() {
     <div className="DEMO1">
       
       <h2>olá mundo</h2>
-      <button onClick={alertaUsuario}>aperte</button>
+      <button onClick={() =>{alert("burro")}}>aperte</button>
       <button onClick={ () =>{alert("serio")}}> denovo</button>
 
       <div>
